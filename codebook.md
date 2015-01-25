@@ -75,7 +75,7 @@ The set of variables that were estimated from these signals are:
 
 ### Download data
 
-This script creates a sub directory called 'project data' in the current working directory, then downloads and extracts the file 'UCI HAR Dataset' from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the created directory.
+This script creates a sub directory called 'project data' in the current working directory, then downloads the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and extracts the file 'UCI HAR Dataset' to the created directory.
 
 ### 1. Merge the training and the test sets to create one data set.
 
