@@ -48,7 +48,7 @@ cols <- sort(c(meanCols, stdCols))
 ## Subset 'data' by columns 1, 2, and 'cols'
 msData <- data[ ,c(1, 2, cols)]
 
-## Create vector of activity names
+## Create factor of activity names
 actNames <- activityNames$V2
 
 ## Replace each 'activity' index with its associated name from 'actNames' 
